@@ -15,6 +15,7 @@ import LazySection from "./components/LazySection";
 import LoginPage from "./pages/LoginPage";
 import Simulados from "./components/Simulados";
 import SimuladoEnem from "./components/SimuladoEnem";
+import SimuladoFuvest from "./components/SimuladoFuvest"; // ✅ novo import
 import SubjectsPage from "./pages/SubjectsPage";
 
 import PlansPage from "./pages/PlansPage";
@@ -66,6 +67,7 @@ const App = () => {
           {/* Simulados */}
           <Route path="/simulados" element={<Simulados />} />
           <Route path="/simulados/enem" element={<SimuladoEnem />} />
+          <Route path="/simulados/fuvest" element={<SimuladoFuvest />} /> {/* ✅ nova rota */}
 
           {/* Planos */}
           <Route path="/planos" element={<PlansPage />} />
@@ -79,6 +81,7 @@ const App = () => {
         </Routes>
 
         <Footer />
+       
       </div>
     </Router>
   );
