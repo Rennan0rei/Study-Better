@@ -27,6 +27,16 @@ import ConteudoTecnologia from "./pages/ConteudoTecnologia";
 //Matemática
 import FuncoesMatematica from "./pages/FuncoesMatematica";
 import ExercicioTrigonometria from "./pages/ExercicioTrigonometria";
+import Geometria from "./pages/Geometria";
+import Probabilidade from "./pages/Probabilidade";
+import Estatistica from "./pages/Estatistica";
+import Progressoes from "./pages/Progressao";
+import Algebra from "./pages/Algebra";
+import Matrizes from "./pages/Matrizes";
+import NumerosComplexos from "./pages/NumerosComplexos";
+import Equacoes from "./pages/Equacoes";
+import AnaliseCombinatoria from "./pages/AnaliseCombinatoria";
+import Logaritmos from "./pages/Logaritmos";
 
 // Páginas e Componentes
 import LoginPage from "./pages/LoginPage";
@@ -94,6 +104,16 @@ const App = () => {
           {/* Conteúdos matemática */}
           <Route path="/materias/matematica/funcoes" element={<FuncoesMatematica />} />
           <Route path="/materias/matematica/trigonometria" element={<ExercicioTrigonometria />} />
+          <Route path="/materias/matematica/geometria" element={<Geometria />} />
+          <Route path="/materias/matematica/probabilidade" element={<Probabilidade />} />
+          <Route path="/materias/matematica/estatistica" element={<Estatistica />} />
+          <Route path="/materias/matematica/progressoes" element={<Progressoes />} />
+          <Route path="/materias/matematica/algebra" element={<Algebra />} />
+          <Route path="/materias/matematica/matrizes" element={<Matrizes />} />
+          <Route path="/materias/matematica/complexos" element={<NumerosComplexos />} />
+          <Route path="/materias/matematica/equacoes" element={<Equacoes />} />
+          <Route path="/materias/matematica/combinatoria" element={<AnaliseCombinatoria />} />
+          <Route path="/materias/matematica/logaritmos" element={<Logaritmos />} />
 
           {/* Simulados */}
           <Route path="/simulados" element={<Simulados />} />
