@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Subjects from "../components/Subjects";
 import Plans from "../components/Plans";
-import Testimonials from "../components/Testimonials";
+//import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -16,7 +16,6 @@ const Home = () => {
         <Subjects />
         <Simulados />
         <Plans />
-        <Testimonials />
       </main>
       <Footer />
     </>
