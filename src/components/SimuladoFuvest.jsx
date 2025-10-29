@@ -255,7 +255,7 @@ const SimuladoFuvest = () => {
                 </button>
               </>
             )}
-          </div>v
+          </div>
           
         </form>
       </div>
