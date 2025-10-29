@@ -12,6 +12,8 @@ import Footer from "./components/Footer";
 import AuthModals from "./components/AuthModals";
 import LazySection from "./components/LazySection";
 
+import ConteudoMatematica from "./pages/ConteudoMatematica";
+
 import LoginPage from "./pages/LoginPage";
 import Simulados from "./components/Simulados";
 import SimuladoEnem from "./components/SimuladoEnem";
@@ -63,6 +65,7 @@ const App = () => {
 
           {/* Matérias */}
           <Route path="/materias" element={<SubjectsPage />} />
+          <Route path="/materias/matematica" element={<ConteudoMatematica />} />
 
           {/* Simulados */}
           <Route path="/simulados" element={<Simulados />} />
