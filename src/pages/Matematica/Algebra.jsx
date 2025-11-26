@@ -1,4 +1,4 @@
-// src/pages/Algebra.jsx
+// src/pages/Matematica/Algebra.jsx
 import React, { useState } from "react";
 
 const exercicios = [
