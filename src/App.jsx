@@ -38,6 +38,11 @@ import Equacoes from "./pages/Equacoes";
 import AnaliseCombinatoria from "./pages/AnaliseCombinatoria";
 import Logaritmos from "./pages/Logaritmos";
 
+//Português
+import Gramatica from "./pages/Portugues/Gramatica";
+import Literatura from "./pages/Portugues/Literatura";
+import Interpretacao from "./pages/Portugues/Interpretacao";
+
 // Páginas e Componentes
 import LoginPage from "./pages/LoginPage";
 import Simulados from "./components/Simulados";
@@ -114,6 +119,12 @@ const App = () => {
           <Route path="/materias/matematica/equacoes" element={<Equacoes />} />
           <Route path="/materias/matematica/combinatoria" element={<AnaliseCombinatoria />} />
           <Route path="/materias/matematica/logaritmos" element={<Logaritmos />} />
+
+          {/* Conteúdos Português */}
+          <Route path="/materias/portugues/gramatica" element={<Gramatica />} />
+          <Route path="/materias/portugues/literatura" element={<Literatura />} />
+          <Route path="/materias/portugues/interpretacao" element={< Interpretacao />} />
+
 
           {/* Simulados */}
           <Route path="/simulados" element={<Simulados />} />
