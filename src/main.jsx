@@ -1,8 +1,8 @@
 // src/main.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./index.css"; // Inclui Tailwind e estilos globais
+import App from "./App";     
+import "./index.css";        
 
 // 1) Importe o CSS do AOS
 import "aos/dist/aos.css";
@@ -11,8 +11,8 @@ import AOS from "aos";
 
 // 3) Inicialize o AOS antes de renderizar a App
 AOS.init({
-  once: true,      // animação dispara apenas na primeira vez que o elemento aparece
-  duration: 800,   // duração das animações em milissegundos
+  once: true,      // animações apenas na primeira aparição
+  duration: 800,   // duração padrão
   easing: "ease-out-cubic",
 });
 

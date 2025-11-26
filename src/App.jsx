@@ -3,59 +3,59 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Home
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import SectionWave from "../components/SectionWave";
-import SobreNos from "../components/SobreNos";
-import Testimonials from "../components/Testimonials";
-import CTA from "../components/CTA";
-import Footer from "../components/Footer";
-import AuthModals from "../components/AuthModals";
-import LazySection from "../components/LazySection";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import SectionWave from "./components/SectionWave";
+import SobreNos from "./components/SobreNos";
+import Testimonials from "./components/Testimonials";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
+import AuthModals from "./components/AuthModals";
+import LazySection from "./components/LazySection";
 
 // Conteúdo das Matérias
-import ConteudoMatematica from "./ConteudoMatematica";
-import ConteudoPortugues from "./ConteudoPortugues";
-import ConteudoCiencias from "./ConteudoCiencias";
-import ConteudoHistoria from "./ConteudoHistoria";
-import ConteudoGeografia from "./ConteudoGeografia";
-import ConteudoFilosofia from "./ConteudoFilosofia";
-import ConteudoSociologia from "./ConteudoSociologia";
-import ConteudoRedacao from "./ConteudoRedacao";
-import ConteudoTecnologia from "./ConteudoTecnologia";
+import ConteudoMatematica from "./pages/ConteudoMatematica";
+import ConteudoPortugues from "./pages/ConteudoPortugues";
+import ConteudoCiencias from "./pages/ConteudoCiencias";
+import ConteudoHistoria from "./pages/ConteudoHistoria";
+import ConteudoGeografia from "./pages/ConteudoGeografia";
+import ConteudoFilosofia from "./pages/ConteudoFilosofia";
+import ConteudoSociologia from "./pages/ConteudoSociologia";
+import ConteudoRedacao from "./pages/ConteudoRedacao";
+import ConteudoTecnologia from "./pages/ConteudoTecnologia";
 
 //Matemática
-import FuncoesMatematica from "./Matematica/FuncoesMatematica";
-import ExercicioTrigonometria from "./pages/ExercicioTrigonometria";
-import Geometria from "./Matematica/Geometria";
-import Probabilidade from "./Matematica/Probabilidade";
-import Estatistica from "./pages/Estatistica";
-import Progressoes from "./Matematica/Progressao";
-import Algebra from "./Matematica/Algebra";
-import Matrizes from "./pages/Matrizes";
-import NumerosComplexos from "./Matematica/NumerosComplexos";
-import Equacoes from "./pages/Equacoes";
-import AnaliseCombinatoria from "./pages/AnaliseCombinatoria";
-import Logaritmos from "./Matematica/Logaritmos";
+import FuncoesMatematica from "./pages/Matematica/FuncoesMatematica";
+import ExercicioTrigonometria from "./pages/Matematica/ExercicioTrigonometria";
+import Geometria from "./pages/Matematica/Geometria";
+import Probabilidade from "./pages/Matematica/Probabilidade";
+import Estatistica from "./pages/Matematica/Estatistica";
+import Progressoes from "./pages/Matematica/Progressao";
+import Algebra from "./pages/Matematica/Algebra";
+import Matrizes from "./pages/Matematica/Matrizes";
+import NumerosComplexos from "./pages/Matematica/NumerosComplexos";
+import Equacoes from "./pages/Matematica/Equacoes";
+import AnaliseCombinatoria from "./pages/Matematica/AnaliseCombinatoria";
+import Logaritmos from "./pages/Matematica/Logaritmos";
 
 //Português
-import Gramatica from "./Portugues/Gramatica";
-import Literatura from "./Portugues/Literatura";
-import Interpretacao from "./Portugues/Interpretacao";
+import Gramatica from "./pages/Portugues/Gramatica";
+import Literatura from "./pages/Portugues/Literatura";
+import Interpretacao from "./pages/Portugues/Interpretacao";
 
 // Páginas e Componentes
-import LoginPage from "./LoginPage";
-import Simulados from "../components/Simulados";
-import SimuladoEnem from "../components/SimuladoEnem";
-import SimuladoFuvest from "../components/SimuladoFuvest"; // ✅ novo import
-import SubjectsPage from "./SubjectsPage";
+import LoginPage from "./pages/LoginPage";
+import Simulados from "./components/Simulados";
+import SimuladoEnem from "./components/SimuladoEnem";
+import SimuladoFuvest from "./components/SimuladoFuvest"; // ✅ novo import
+import SubjectsPage from "./pages/SubjectsPage";
 
 // Planos
-import PlansPage from "./PlansPage";
-import PlanoEnem from "./PlanoEnem";
-import PlanoFuvest from "./PlanoFuvest";
-import PlanoUnicamp from "./PlanoUnicamp";
-import PlanoTech from "./PlanoTech";
+import PlansPage from "./pages/PlansPage";
+import PlanoEnem from "./pages/PlanoEnem";
+import PlanoFuvest from "./pages/PlanoFuvest";
+import PlanoUnicamp from "./pages/PlanoUnicamp";
+import PlanoTech from "./pages/PlanoTech";
 
 const App = () => {
   return (
